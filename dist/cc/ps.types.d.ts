@@ -1829,7 +1829,7 @@ interface ColorSamplers {
      * position parameter (x,y) represents the new horizontal and vertical
      * locations of the moved color sampler.
      */
-    add(position: UnitValue[]): void
+    add(position: UnitValue[]): ColorSampler
 
     /*
      * Removes all ColorSampler objects from the ColorSamplers collection.
